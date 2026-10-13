@@ -1,0 +1,50 @@
+name: 申請原始碼存取 Request access
+description: 申請 ziweiyaluchart-dist 的唯讀存取 ／ Request read access to ziweiyaluchart-dist
+title: "申請存取 Access request: "
+labels: ["access-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **這份申請是公開的，任何人都看得到。** 請不要填電話、Email、地址，也不要放任何人的出生年月日時。
+        邀請會寄到你開這個 Issue 所用的 GitHub 帳號，不需要另外填帳號。
+
+        ⚠️ **This request is public.** Don't include phone numbers, emails, addresses, or anyone's birth date and time.
+        The invitation goes to the GitHub account you are using to open this issue — no need to enter it again.
+  - type: input
+    id: name
+    attributes:
+      label: 怎麼稱呼你 ／ What should we call you?
+      description: 暱稱即可 ／ A nickname is fine
+    validations:
+      required: true
+  - type: dropdown
+    id: purpose
+    attributes:
+      label: 用途 ／ Purpose
+      options:
+        - 自己架來用 ／ Run my own copy
+        - 學習、研究排盤程式 ／ Learn how the chart engine works
+        - 想一起改進 ／ Help improve it
+        - 其他 ／ Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 用途說明（選填） ／ More about your purpose (optional)
+  - type: input
+    id: source
+    attributes:
+      label: 怎麼知道這個專案（選填） ／ How did you hear about this project? (optional)
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: 確認事項 ／ Please confirm
+      options:
+        - label: 我了解授權為 MIT ／ I understand the code is MIT-licensed
+          required: true
+        - label: 我不會在 Issue、Pull Request 或程式中放真人的出生資料 ／ I won't post real people's birth data in issues, pull requests, or code
+          required: true
+        - label: 我了解這份申請是公開的 ／ I understand this request is public
+          required: true
