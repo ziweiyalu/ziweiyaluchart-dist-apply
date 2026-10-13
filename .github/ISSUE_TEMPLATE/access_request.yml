@@ -1,5 +1,5 @@
 name: 申請原始碼存取 Request access
-description: 申請 ziweiyaluchart-dist 的唯讀存取 ／ Request read access to ziweiyaluchart-dist
+description: 申請 ziweiyaluchart-dist 的存取 ／ Request access to ziweiyaluchart-dist
 title: "申請存取 Access request: "
 labels: ["access-request"]
 body:

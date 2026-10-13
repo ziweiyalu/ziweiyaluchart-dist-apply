@@ -12,7 +12,7 @@
 
 1. 登入你的 GitHub 帳號（沒有的話先到 github.com 免費註冊）
 2. 到這個 repo 的 **Issues → New issue → 申請原始碼存取 Request access**，填寫並送出
-3. 原作者審核通過後，GitHub 會寄邀請信到你帳號的信箱；接受邀請後就能閱讀、下載與 fork（唯讀）
+3. 原作者審核通過後，GitHub 會寄邀請信到你帳號的信箱；接受邀請後就能閱讀、下載與 fork。修改請用 fork 或自己的分支送 Pull Request，不要直接推送到 main
 
 **請注意**
 
@@ -35,7 +35,7 @@ Built in collaboration with AI (Claude).
 
 1. Sign in to GitHub (create a free account at github.com if you don't have one)
 2. Go to **Issues → New issue → 申請原始碼存取 Request access** in this repository, fill in the form and submit it
-3. Once approved, GitHub will email an invitation to your account. After accepting it you can read, download, and fork the code (read-only)
+3. Once approved, GitHub will email an invitation to your account. After accepting it you can read, download, and fork the code. To propose changes, open a pull request from a fork or your own branch — please don't push to main directly
 
 **Please note**
 
